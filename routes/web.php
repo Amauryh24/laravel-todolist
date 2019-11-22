@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/{vue_capture?}', function () {
+
+    return view('post');
+})->where('vue_capture', '[\/\w\.-]*');
