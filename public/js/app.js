@@ -6596,7 +6596,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.title {\n  text-align: center;\n}\n.subtitle {\n  text-align: center;\n}\n.card-body {\n  padding-top: 10rem;\n}\n", ""]);
+exports.push([module.i, "\n.title {\n  text-align: center;\n  font-size: 3rem;\n  font-weight: 900;\n}\n.subtitle {\n  text-align: center;\n  font-size: 2rem;\n  text-transform: uppercase;\n}\n.home-c {\n  padding-top: 10rem;\n}\n.card-default {\n  border-radius: 25px;\n  background-color: whitesmoke;\n  color: rgba(69, 145, 116, 1);\n  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.425);\n}\n", ""]);
 
 // exports
 
@@ -38498,7 +38498,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row justify-content-center" }, [
-      _c("div", { staticClass: "col-md-8" }, [
+      _c("div", { staticClass: "col-md-8 home-c" }, [
         _c("div", { staticClass: "card card-default" }, [
           _c("div", { staticClass: "card-body" }, [
             _c("h1", { staticClass: "title" }, [
