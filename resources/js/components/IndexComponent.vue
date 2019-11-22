@@ -60,3 +60,19 @@ export default {
   }
 };
 </script>
+<style >
+body {
+  background: linear-gradient(
+    157deg,
+    rgba(77, 184, 128, 1) 0%,
+    rgba(69, 145, 116, 1) 52%,
+    rgba(53, 73, 94, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 378px;
+}
+h1 {
+  color: ;
+}
+</style>

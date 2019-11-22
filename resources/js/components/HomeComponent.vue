@@ -3,10 +3,11 @@
     <div class="col-md-8">
       <div class="card card-default">
         <div class="card-body">
-          <h1>Hey there, welcome on our Vue.JS + Laravel Sandbox!</h1>
-          <br />Here is an example of CRUD with these two magnificients frameworks.
-          <br />
-Learn, practice, enjoy!
+          <h1 class="title">Hey, welcome in todo App</h1>
+          <div class="subtitle">
+            <br />Yes we can !
+            <br />Create / Rename / Update / Delete
+          </div>
         </div>
       </div>
     </div>
@@ -22,3 +23,14 @@ export default {
   }
 };
 </script>
+<style>
+.title {
+  text-align: center;
+}
+.subtitle {
+  text-align: center;
+}
+.card-body {
+  padding-top: 10rem;
+}
+</style>
