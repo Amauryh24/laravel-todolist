@@ -1,33 +1,35 @@
 <template>
   <div>
-    <h1>Edit Post</h1>
+    <h1 class="title-edit-c">Edit Post</h1>
 
-    <form @submit.prevent="updatePost">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form-group">
-            <label>Post Title:</label>
+    <div class="bloc-edit-c">
+      <form @submit.prevent="updatePost">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label class="post-edit-c">Post Title:</label>
 
-            <input type="text" class="form-control" v-model="post.title" />
+              <input type="text" class="form-control" v-model="post.title" />
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form-group">
-            <label>Post Body:</label>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label class="post-edit-c">Post Body:</label>
 
-            <textarea class="form-control" v-model="post.body" rows="5"></textarea>
+              <textarea class="form-control" v-model="post.body" rows="5"></textarea>
+            </div>
           </div>
         </div>
-      </div>
-      <br />
+        <br />
 
-      <div class="form-group">
-        <button class="btn btn-primary">Update</button>
-      </div>
-    </form>
+        <div class="form-group">
+          <button class="btn btn-primary">Update</button>
+        </div>
+      </form>
+    </div>
   </div>
 </template>
 
@@ -60,3 +62,20 @@ export default {
   }
 };
 </script>
+<style>
+.title-edit-c {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 4rem;
+  color: orange;
+}
+.bloc-edit-c {
+  width: 80%;
+  margin-left: 31%;
+}
+.post-edit-c {
+  color: orange;
+  font-size: 30px;
+  margin-top: 1rem;
+}
+</style>

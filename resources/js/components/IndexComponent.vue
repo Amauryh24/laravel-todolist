@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Posts</h1>
+    <h1 class="title-index-c">Posts</h1>
 
     <div class="row">
       <div class="col-md-10"></div>
@@ -72,7 +72,11 @@ body {
   background-size: cover;
   padding-bottom: 378px;
 }
-h1 {
-  color: ;
+
+.title-index-c {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 4rem;
+  color: orange;
 }
 </style>

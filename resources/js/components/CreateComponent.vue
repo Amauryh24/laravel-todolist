@@ -26,7 +26,7 @@
         <br />
 
         <div class="form-group">
-          <button class="btn btn-primary">Create</button>
+          <button class="btn btn-primary btn-create-c">Create</button>
         </div>
       </form>
     </div>
@@ -80,7 +80,7 @@ export default {
   width: 80%;
   margin-left: 31%;
 }
-.btn-primary {
+.btn-create-c {
   background-color: orange;
   text-transform: uppercase;
   letter-spacing: 1px;
